@@ -1,0 +1,54 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>An Engineer's Guide</title>
+    <link rel='stylesheet' href='styleswebsite.css'/>
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <div class='header-container'>
+      <div class='header'>
+        <div class='home'> <a href="index.html"><img src='home.png' alt="Home logo" style="width:70px;height:70px;"/></a></div>
+        <div class='title'> <h1 style="font-size:40px"> An Engineer's Guide To <strike> Surviving </strike> <em> <br/> Thriving </em> in Engineering </h1> </div>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Menu</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="Me.html">Why should you listen to me?</a>
+            <a href="Grades.html">Grades</a>
+            <a href="Relationships.html">Relationships</a>
+            <a href="Passion.html">Passion</a>
+            <a href="Clubs.html">Clubs and Organizations</a>
+          </div>
+        </div>
+        <script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+        </div>
+      </div>
+      <div class='psubheading'>
+        <div class="author"> <a href="Me.html"> <u> <font color="#023c40"> Written By: Fathima Shabnam  </font></u> </a>
+        </div>
+      </div>
+
+    </body>
+</html>

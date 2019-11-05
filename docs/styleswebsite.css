@@ -9,17 +9,31 @@ body {
   color: #414141;               /* Dark gray */
   background-color: #e8e8e8;    /* Light gray */
   font-size: 18px;
+  line-height: 1.5;
   /* margin: 0 auto; */
-  max-width: 50 em;
+  /* max-width: 50 em; */
+}
+
+.bodycontent {
+  /* top | right | bottom | left */
+  padding: 0 20em 0 20em;
 }
 
 h1 {
   font-size: 2em;
   text-align: center;
+  color: #333;
 }
 
 h2 {
   font-size: 1.6em;
+  margin-top: 1em;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+strong {
+  color: #333;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -27,33 +41,38 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: normal;
 }
 
+p {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
 a {
   text-decoration: none;
 }
 
 
-.header-container, .footer-container {
+.header-container, .footer-container, .psubheading {
   color: #504d7c;
   background-color: #78d5d7;
   display: flex;
   justify-content: center;
 }
 
-.header {
+.header{
   width: 1000px;
-  height: 300px;
+  height: 140px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
-.subtitle{
-  background-color: #d2e59e;
+.author {
+  width: 1000px;
   height: 50px;
+  font-size: 1.2em;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 1000px;
+  justify-content: center;
 }
 
 .dropbtn {
