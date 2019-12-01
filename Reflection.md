@@ -1,8 +1,8 @@
 Surprisingly, I did not have too many different ideas for this project at the brainstorming phase. 
-This is because I have been wanting to to make an engineering blog of sorts for a while now to add to my 
+This is because I have been wanting to make an engineering program blog of sorts for a while now to add to my 
 website, but I just haven’t gotten around to doing this. This project gave me the perfect opportunity to do this, but
 I wanted to add a personal challenge to it and code it from scratch (without using a template). This was a challenge to me, as I had
-used a template from HTML 5-UP when I built my website, and while that yielded a satisfactory layout, I felt like I did not
+used a template from HTML 5-UP when I built my personal website, and while that yielded a satisfactory layout, I felt like I did not
 understand underlying structures and code. My beginner level HTML training from my freshman engr class had given me enough 
 leverage to do whatever was needed to get my website running, but my coding etiquette for my website was abysmal (in class, we made
 our webpage using tables…so I’ve come a long way). By challenging myself to code these webpages from scratch, this allowed
