@@ -28,25 +28,28 @@ This yielded a satisfactory result in a Firefox browser at full width, but when 
 screen, the image gets cropped in view, so I added a media query to readjust the image. However, this part needs to be 
 tweaked further for my final project. 
 
+![placing the main image in div and relative/absolute css](docs/Screenshot1.png)
 
+![Media query](docs/Screenshot4.png)
 
 Once the main image was finally done, the next steps involved adding multiple connected pages with content in them. I was 
 able to add content relatively easily, but I soon realized my bad coding practices came back to hurt me. I started adding 
-stylistic elements with <font> tags and size changes in the html page. When trying to recode and clean up my code, I couldn’t
+stylistic elements with <font> tags and font size changes in the html page. When trying to recode and clean up my code, I couldn’t
 figure out why my font color wasn’t changing… until I realized I had also used a strong tag in my html page that superseded
-the css command. An example of me cleaning my code below: 
+the css command. An example of me cleaning my code below (collapsible 2): 
 
-XX 
+![cleaning code](docs/Screenshot2.png)
 
 In terms of visual aesthetic, I knew I wanted it to be fun, cheery, and sarcastic. I used a variety of bright colors and
-used a carefully crafted visual for my main page. At first glance, the person is just holding a rod with lines, and when
-the user scrolls, the balloons and crocodiles are visible together due to the vicinity of the two. I used the “scroll” 
+used a carefully crafted visual for my main page. At first, the user can only see a person holding a rod with lines on the browser window, and when he/she scrolls, the balloons and crocodiles are visible together due to the closeness of the two. I used the “scroll” feature
 available on a website to add that surprise factor. Another area I used a lot of color was in the grades html page. I also
 used a collapsible button here. The main reason for this is the amount of text. I knew in order to keep the reader’s attention,
 I would have to separate the information and make it attractive. I also wanted to bulletpoint my points but add detail so the 
 collapsible button was the best option available. For this (and the menu bar), I ended up using javascript tutorials despite 
 my initial reluctance to do so. I ended up sacrificing a little of my “I will code everything from scratch” goal to attain 
 visual satisfaction. 
+
+![menu](docs/Screenshot3.png)
 
 I also added various details to the code to make it minimalistic in design and clean. I added the padding that was suggested 
 to the body of my pages, and kept everything centered. I also kept the header the exact same in every page, and added a footer
@@ -66,6 +69,9 @@ considered this, but felt as if something were missing if I removed the home ico
 it from the menu (as all the other pages were listed). I decided not to incorporate this suggestion for the time being, but if 
 I can think of something to put in place of the home icon, I will more than happily remove it (sugesstions are very welcome). 
 
-Through this project, I have learned a lot. Flexboxes, media queries, nth-of-type, tags in css, divs and classes are just a 
+![feedback1](docs/Feedback1.jpg)
+![feedback2](docs/Feedback2.jpg)
+
+Through this project, I have learned a lot. Flexboxes (screenshot), media queries, nth-of-type, tags in css, divs and classes are just a 
 few things I was introduced to with this project. This has, by far, been the most challenging of projects in this class, and
 dare I say, most rewarding. My website is by no means fancy or professional, but I am pretty proud of it thus far. 
