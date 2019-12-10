@@ -16,7 +16,7 @@ body {
 
 .bodycontent {
   /* top | right | bottom | left */
-  padding: 0% 22% 1% 22%;
+  padding: 0% 22% 8% 22%;
 }
 
 h1 {
@@ -222,6 +222,11 @@ a {
   width: 650px;
 
 }
+
+.constuction{
+  width: 70%
+}
+
 .blueballoon
 {
   position: relative;
